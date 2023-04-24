@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+    body{
+        background-color: cornflowerblue;
+    }
+</style>
+    <title>Week3</title>
+</head>
+<body>
+    <h1>Week3</h1>
+    <p>
+        Inside of the project folder<br><br>
+git init<br><br>
+To add file (unstaged to staged)<br><br>
+git add filename<br><br>
+or<br><br>
+git add .<br><br>
+Create Commit point<br><br>
+git commit -m “50 characters meaningful message”<br><br>
+Common Git Commands Process<br><br>
+Git Config<br><br>
+git config -- list<br><br>
+(note : “q” to quit)<br><br>
+git config --global user.name “Test”<br><br>
+git config --global user.email “test@gmail.com”<br><br>
+Common Git Commands Process..<br><br>
+Git Create Branch<br><br>
+git checkout -b branch_name<br><br>
+After creating branch move across branch<br><br>
+git checkout master<br><br>
+git checkout branch_name<br><br>
+List of all branches<br><br>
+git branch<br><br>
+(note: “q” to quit)<br><br>
+Common Git Commands Process..<br><br>
+Merge the changes in the master to branch<br><br>
+git merge master<br><br>
+(initially should be in a branch)<br><br>
+Merge the changes in the branch to master<br><br>
+git merge branch_name<br><br>
+(initially should be in a master)<br><br>
+Common Git Commands Process..<br><br>
+1. Create a repo<br><br>
+2. Sample Push<br><br>
+echo "# gitting" >> README.md<br><br>
+git init<br><br>
+git add README.md<br><br>
+git commit -m "first commit"<br><br>
+git branch -M main<br><br>
+git remote add origin https://github.com/dadhiramp/gitting.git<br><br>
+git push -u origin main<br><br>
+Lets Go To GitHub<br><br>
+2. Sample Pull<br><br>
+git remote add origin https://github.com/dadhiramp/gitting.git<br><br>
+git branch -M main<br><br>
+git push -u origin main<br><br>
+Lets Go To GitHub ..<br><br>
+List ssh-key using terminal:<br><br>
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys<br><br>
+Generate ssh-key:<br><br>
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-andadding-it-to-the-ssh-agent<br><br>
+Check for existing ssh-key:<br><br>
+ls -al ~/.ssh<br><br>
+id_rsa.pub<br><br>
+id_ecdsa.pub<br><br>
+id_ed25519.pub<br><br>
+Copy the ssh-key:<br><br>
+pbcopy < ~/.ssh/id_rsa_pub<br><br>
+SSH-KEY<br><br>
+Profile -> Settings -> SSH and GPG<br><br>
+Keys -> Paste the copied ssh-key<br><br>
+Add SSH-KEY in GitHUB<br><br>
+    </p>
+</body>
+</html>
